@@ -1,0 +1,90 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    margin-top: 10%;
+}
+.input-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.login-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.input-wrapper>input{
+    outline: none;
+    border: none;
+    font-size: 1.4em;
+    border-bottom: 2px solid var(--btn);
+    background-color: inherit;
+    color: var(--text);
+    margin-left: 10px;
+    padding: 2px 0px 2px 8px;
+    width: 250px;
+}
+.login>img{
+    width: 120px;
+    margin-bottom: 40px;
+}
+.bolb{
+    position: absolute !important;
+    top: -200px;
+    right: -100px;
+    width: 400px !important;
+}
+.input-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btn);
+    border-radius: 20px;
+    color: var(--text);
+    font-size: 1.8em;
+    padding: 5px 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.input-btn:hover{
+    background-color: rgb(17,22,58);
+    color: var(--btn);
+}
+.check{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+    margin-left: 10px;
+}
+.check>p{
+    font-size: 1em;
+}
+.input-check{
+    margin-right: 10px;
+}
+.forgot{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    padding-bottom: 2px;
+}
+.forgot:hover{
+    cursor: pointer;
+    display: inline-block;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+}
+.register{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+.register:hover{
+    cursor: pointer;
+    display: inline-block;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+}
